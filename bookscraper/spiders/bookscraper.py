@@ -1,6 +1,6 @@
 from scrapy.spiders import CrawlSpider,Rule
 from scrapy.linkextractors import LinkExtractor
-from bookscraper.items import Item
+from bookscraper.items import BookscraperItem
 
 import os
 from csv import writer
