@@ -5,6 +5,7 @@ from bookscraper.items import BookscraperItem
 import os
 from csv import writer
 
+
 class BookScraper(CrawlSpider):
     name = "bookscraper"
     start_urls = ["http://books.toscrape.com/"]
